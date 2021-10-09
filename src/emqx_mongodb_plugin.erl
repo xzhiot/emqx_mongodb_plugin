@@ -16,7 +16,7 @@
 
 -module(emqx_mongodb_plugin).
 
--include_lib("emqx/include/emqx.hrl").
+-include_lib("/emqx-4.3.8/include/emqx.hrl").
 -import(string,[concat/2]).
 -import(lists,[nth/2]). 
 
